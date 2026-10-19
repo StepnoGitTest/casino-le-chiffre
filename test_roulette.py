@@ -131,7 +131,7 @@ def test_inzet_van_nul_mag_niet():
 # ------------------------------------------------------------------
 
 def test_saldo_na_winst():
-    assert nieuw_saldo(100, 10, 20) == 1102
+    assert nieuw_saldo(100, 10, 20) == 110
 
 
 def test_saldo_na_verlies():
